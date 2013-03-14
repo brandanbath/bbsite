@@ -5,31 +5,11 @@
 	White	ffffff
 -------------------------*/
 
-body {
-	width: 1020px;
-	margin: 0 auto;
-	background-image: url("../images/bbsitebg.png");
-	background-repeat: repeat-x;
-	background-color: #d0d0d0;
-	background-attachment: scroll;
-}
 
-
+/*------------------Header------------------*/
 head {
 	margin: 50px;
 }
-
-.portfolio{
-	list-style-type: none;
-	float: left;
-	outline: 0;
-}
-
-li{
-	float: left;
-	margin: 20px;
-}
-
 
 nav {
 	float: right;
@@ -40,6 +20,32 @@ nav {
 	font-family: Electrolize;
 	background-color: #009eff;
 }
+
+
+
+/*-------------------Body-------------------*/
+body {
+	width: 1020px;
+	margin: 0 auto;
+	background-image: url("../images/bbsitebg.png");
+	background-repeat: repeat-x;
+	background-color: #d0d0d0;
+	background-attachment: scroll;
+}
+
+
+.portfolio{
+	list-style-type: none;
+	float: left;
+	outline: 0;
+}
+
+li{
+	float: left;
+	margin: 15px;
+	list-style-type: none;
+}
+
 
 .welcome{
 	background: #ffffff;
@@ -81,11 +87,17 @@ p {
 }
 
 
-.bio {
+#bio {
 	width: 820;
 	padding: 15px;
 }
 
+article {
+	float: left;
+}
+
+
+/*---------------------footer----------------------*/
 
 footer {
 	padding-top: 15px;
