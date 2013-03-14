@@ -22,12 +22,11 @@ nav {
 }
 
 
-
 /*-------------------Body-------------------*/
 body {
 	width: 1020px;
 	margin: 0 auto;
-	background-image: url("../images/bbsitebg.png");
+	background-image: url("../images/bbsitebg2.png");
 	background-repeat: repeat-x;
 	background-color: #d0d0d0;
 	background-attachment: scroll;
@@ -38,6 +37,12 @@ body {
 	list-style-type: none;
 	float: left;
 	outline: 0;
+}
+
+.note {
+	color: 000000;
+	float: left;
+	padding-left: 15px;
 }
 
 li{
@@ -61,6 +66,7 @@ h2, h3, h4, h5, h6 {
 h1 {
 	font-family: Poiret One;
 	text-shadow: 2px 2px 2px #919191;
+	color: #009eff;
 }
 
 
