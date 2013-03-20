@@ -24,16 +24,17 @@ nav {
 
 /*-------------------Body-------------------*/
 body {
-	width: 1020px;
+	width: 70%; /*1020px*/
 	margin: 0 auto;
 	background-image: url("../images/bbsitebg2.png");
 	background-repeat: repeat-x;
 	background-color: #d0d0d0;
 	background-attachment: scroll;
+	font: 100%/1.5 "Helvetica", Arial, Georgia;
 }
 
 
-.portfolio{
+.portfolio {
 	list-style-type: none;
 	float: left;
 	outline: 0;
@@ -42,19 +43,19 @@ body {
 .note {
 	color: 000000;
 	float: left;
-	padding-left: 15px;
+	padding-left: 1.4705882; /*15px;*/
 }
 
-li{
+li {
 	float: left;
-	margin: 15px;
+	margin: 1.4705882%; /*15px;*/
 	list-style-type: none;
 }
 
 
 .welcome{
 	background: #ffffff;
-	padding: 5px;
+	padding: .49019608%; /*5px;*/
 }
 
 
@@ -64,6 +65,8 @@ h2, h3, h4, h5, h6 {
 
 
 h1 {
+	font-weight: normal;
+	font-size: 1.5em;
 	font-family: Poiret One;
 	text-shadow: 2px 2px 2px #919191;
 	color: #009eff;
@@ -72,11 +75,12 @@ h1 {
 
 aside {
 	background: #009eff;
-	padding: 15px;
-	width: 200px;
+	padding: 1.4705882; /*15px;*/
+	width: 19.607843%; /*200px;*/
 	float: right;
 	opacity: 0.7;
-	margin-bottom: 25px;
+	margin-bottom: 2.4509804%; /*25px;*/
+	padding-left: 1%; /*3px*/
 }
 
 
@@ -95,7 +99,7 @@ p {
 
 #bio {
 	width: 820;
-	padding: 15px;
+	padding: 1.4705882; /*15px;*/
 }
 
 article {
