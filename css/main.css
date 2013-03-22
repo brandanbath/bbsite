@@ -36,14 +36,14 @@ body {
 
 .portfolio {
 	list-style-type: none;
-	float: left;
+	float: right;
 	outline: 0;
 }
 
 .note {
-	color: 000000;
+	color: black;
 	float: left;
-	padding-left: 1.4705882; /*15px;*/
+	padding-left: 1.4705882%; /*15px;*/
 }
 
 li {
@@ -65,7 +65,6 @@ h2, h3, h4, h5, h6 {
 
 
 h1 {
-	font-weight: normal;
 	font-size: 1.5em;
 	font-family: Poiret One;
 	text-shadow: 2px 2px 2px #919191;
@@ -75,7 +74,7 @@ h1 {
 
 aside {
 	background: #009eff;
-	padding: 1.4705882; /*15px;*/
+	padding: 1.4705882%; /*15px;*/
 	width: 19.607843%; /*200px;*/
 	float: right;
 	opacity: 0.7;
@@ -98,8 +97,8 @@ p {
 
 
 #bio {
-	width: 820;
-	padding: 1.4705882; /*15px;*/
+	width: 100%;
+	padding: 1.4705882%; /*15px;*/
 }
 
 article {
@@ -121,15 +120,29 @@ footer {
 
 	/* Tablet Portrait size to standard 960 (devices and browsers)*/
 	@media screen and (min-width: 768px) and (max-width: 959px) {
-	body {
-		
-	}
+		body {
+			background-image: url("../images/bbsitebg2.png");
+		}
+		.h1 {
+			font-weight: bold;
+		}
+		.portfolio {
+			float: right;
+		}
 } 
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
 		body {
 			background-color: #d0d0d0;
+		}
+		.h1 {
+			font-weight: bold;
+		}
+		.aside {
+			background: none;
+			opacity: 0;
+			float: none;
 		}
 }
 
@@ -139,18 +152,28 @@ footer {
 			background-color: #d0d0d0;
 			background-image: none;
 			float: none;
-			
 		}
 		
+		.h1 {
+			font-weight: normal;
+		}
+		
+		
 		.portfolio {
-			float: none;
+			float: left;
 		}
 		
 		.nav {
 			float: left;
 		}
 		
-		aside {
-			float: none;
-		}	
+		.aside {
+			background: none;
+			opacity: 0;
+			float: left;
+		}
+		
+		.welcome {
+			background: none;
+		}
 }
