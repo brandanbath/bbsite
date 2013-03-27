@@ -19,8 +19,6 @@
     	<a href="contact.html">CONTACT</a>
     </nav>
 	<section><h1>Contact</h1></section>
-		<p>If you are ready to start your project or are inquiring regarding a free
-		consultation, please contact the email: brandan@brandanbath.com</p>
 		
 		<form method="get" action="mailto:brandanbath@commonambition.com">
 			<div>
@@ -43,6 +41,9 @@
 				<input type="text" name="phone_number" id="phone_number" />
 			</div>
 			
+			<div>
+				<label for="reason for contact">Reason For Contact</label>
+			</div>
 			
 			<div>
 				<select name="regarding id=regarding">
@@ -56,9 +57,12 @@
 			 
 			 <div>
 				<label for="message">Message</label>
-				<input type="text" name="message" id="message" />
+				<textarea rows="10" cols="50" name="message" id="message"></textarea>
 			</div>
 		
+			 <div>
+				<button type="submit" name="submit" class="button" />Send</button>
+			</div>
 		
     <footer>Copyright &copy; 2013. Designed By Brandan Bath</footer>
   </body>

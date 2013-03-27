@@ -105,6 +105,46 @@ article {
 	float: left;
 }
 
+/*---------------------Form----------------------*/
+input:focus {
+	background: #009eff;
+}
+
+form {
+	align: left;
+}
+
+label {
+	color: #009eff;
+}
+
+/*---------------------Table----------------------*/
+td {
+	border: 1px solid #000;
+	padding: 0.3em;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid #000;
+	float: left;
+}
+
+th {
+	text-align: left;
+	background-color: #009eff;
+	color: #fff;
+	padding: 0.3em;
+}
+
+.odd {
+	background-color: #d0d0d0;
+}
+
+.even {
+	background-color: white;
+}
+
 
 /*---------------------footer----------------------*/
 
